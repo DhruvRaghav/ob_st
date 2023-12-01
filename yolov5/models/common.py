@@ -40,7 +40,7 @@ from ultralytics.utils.plotting import Annotator, colors, save_one_box
 from utils import TryExcept
 from utils.dataloaders import exif_transpose, letterbox
 from utils.general import (LOGGER, ROOT, Profile, check_requirements, check_suffix, check_version, colorstr,
-                           increment_path, is_jupyter, make_divisible, non_max_suppression, scale_boxes, xywh2xyxy,
+                           increment_path, is_jupyter, make_divisible, non_max_suppression, xywh2xyxy,
                            xyxy2xywh, yaml_load)
 from utils.torch_utils import copy_attr, smart_inference_mode
 
@@ -501,9 +501,9 @@ class DetectMultiBackend(nn.Module):
         elif triton:  # NVIDIA Triton Inference Server
             LOGGER.info(f'Using {w} as Triton Inference Server...')
             check_requirements('tritonclient[all]')
-            from utils.triton import TritonRemoteModel
-            model = TritonRemoteModel(url=w)
-            nhwc = model.runtime.startswith('tensorflow')
+            # from utils.triton import TritonRemoteModel
+            # model = TritonRemoteModel(url=w)
+            # nhwc = model.runtime.startswith('tensorflow')
         else:
             raise NotImplementedError(f'ERROR: {w} is not a supported format')
 
@@ -710,25 +710,25 @@ class AutoShape(nn.Module):
             x = [letterbox(im, shape1, auto=False)[0] for im in ims]  # pad
             x = np.ascontiguousarray(np.array(x).transpose((0, 3, 1, 2)))  # stack and BHWC to BCHW
             x = torch.from_numpy(x).to(p.device).type_as(p) / 255  # uint8 to fp16/32
-
-        with amp.autocast(autocast):
-            # Inference
-            with dt[1]:
-                y = self.model(x, augment=augment)  # forward
-
-            # Post-process
-            with dt[2]:
-                y = non_max_suppression(y if self.dmb else y[0],
-                                        self.conf,
-                                        self.iou,
-                                        self.classes,
-                                        self.agnostic,
-                                        self.multi_label,
-                                        max_det=self.max_det)  # NMS
-                for i in range(n):
-                    scale_boxes(shape1, y[i][:, :4], shape0[i])
-
-            return Detections(ims, y, files, dt, self.names, x.shape)
+        #
+        # with amp.autocast(autocast):
+        #     # Inference
+        #     with dt[1]:
+        #         y = self.model(x, augment=augment)  # forward
+        #
+        #     # Post-process
+        #     with dt[2]:
+        #         y = non_max_suppression(y if self.dmb else y[0],
+        #                                 self.conf,
+        #                                 self.iou,
+        #                                 self.classes,
+        #                                 self.agnostic,
+        #                                 self.multi_label,
+        #                                 max_det=self.max_det)  # NMS
+        #         for i in range(n):
+        #             scale_boxes(shape1, y[i][:, :4], shape0[i])
+        #
+        #     return Detections(ims, y, files, dt, self.names, x.shape)
 
 
 class Detections:
