@@ -292,17 +292,27 @@ This command initiates a local server, making the app accessible through a web b
 # Results and Discussion
 ### TRAFFIC SIGN DETECTION AND RECOGNITION SAMPLE:
 ![Traffic Sign Original Image](https://github.com/DhruvRaghav/ob_st/blob/main/API_DATA/Pothole_box/000000000318.jpg "Traffic Sign Detection")
-![Traffic Sign Detection](C:\Users\Dhruv\Desktop\dhruv\dhruv\raw_results\tsdr\FCOM60809032023114526.jpg "Traffic Sign Detection")
-![Traffic Sign Detection](C:\Users\Dhruv\Desktop\dhruv\dhruv\raw_results\tsdr\FCOM60809032023112916(1).jpg "Traffic Sign Detection")
-![Traffic Sign Detection](C:\Users\Dhruv\Desktop\dhruv\dhruv\raw_results\tsdr\FCOM60809032023112916.jpg "Traffic Sign Detection")
-![Traffic Sign Detection](C:\Users\Dhruv\Desktop\dhruv\dhruv\raw_results\tsdr\FCOM60809032023114526(1).jpg "Traffic Sign Detection")
+![Traffic Sign Detection](https://github.com/DhruvRaghav/ob_st/blob/main/API_DATA/Pothole_box/000000001076.jpg "Traffic Sign Detection")
+![Traffic Sign Detection](https://github.com/DhruvRaghav/ob_st/blob/main/API_DATA/Pothole_box/000000005921.jpg "Traffic Sign Detection")
+![Traffic Sign Detection](https://github.com/DhruvRaghav/ob_st/blob/main/API_DATA/Pothole_box/000000160720.jpg "Traffic Sign Detection")
+![Traffic Sign Detection](https://github.com/DhruvRaghav/ob_st/blob/main/API_DATA/Pothole_box/000000167164.jpg "Traffic Sign Detection")
 
-![Traffic Sign Detection](C:\Users\Dhruv\Desktop\dhruv\dhruv\raw_results\tsdr\FCOM60809032023114526.jpg "Traffic Sign Detection")
+### TRAFFIC SIGN DETECTION AND RECOGNITION RESULT
 
-### GENERAL OBJECT DETECTION RESULT
-![Traffic Sign Detection](C:\Users\Dhruv\Desktop\000000167164.jpg "Traffic Sign Detection")
-![Traffic Sign Detection](C:\Users\Dhruv\Desktop\000000166684.jpg "Traffic Sign Detection")
+![Traffic Sign Detection](https://github.com/DhruvRaghav/ob_st/blob/main/API_DATA/Pothole_box/FCOM60809032023112916.jpg "Traffic Sign Detection")
 
+![Traffic Sign Detection](https://github.com/DhruvRaghav/ob_st/blob/main/API_DATA/Pothole_box/FCOM60809032023113425.jpg "Traffic Sign Detection")
+![Traffic Sign Detection](https://github.com/DhruvRaghav/ob_st/blob/main/API_DATA/Pothole_box/FCOM60809032023114403.jpg "Traffic Sign Detection")
+
+![Traffic Sign Detection](https://github.com/DhruvRaghav/ob_st/blob/main/API_DATA/Pothole_box/FCOM60809032023114526.jpg "Traffic Sign Detection")
+![Traffic Sign Detection](https://github.com/DhruvRaghav/ob_st/blob/main/API_DATA/Pothole_box/T1_100323_103000_154_GoPro_R.jpg "Traffic Sign Detection")
+![Traffic Sign Detection](https://github.com/DhruvRaghav/ob_st/blob/main/API_DATA/Pothole_box/T1_100323_131520_505_GoPro_R.jpg "Traffic Sign Detection")
+![Traffic Sign Detection](https://github.com/DhruvRaghav/ob_st/blob/main/API_DATA/Pothole_box/T1_100323_145915_910_GoPro_R.jpg "Traffic Sign Detection")
+
+### LICENSE PLATE DETECTION RESULTS
+![Traffic Sign Detection](https://github.com/DhruvRaghav/ob_st/blob/main/API_DATA/Pothole_box/license_plate_api.PNG "Traffic Sign Detection")
+![Traffic Sign Detection](https://github.com/DhruvRaghav/ob_st/blob/main/API_DATA/Pothole_box/p3.PNG
+ "Traffic Sign Detection")
 
 
 
