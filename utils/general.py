@@ -252,7 +252,14 @@ def emojis(str=''):
     # Return platform-dependent emoji-safe version of string
     return str.encode().decode('ascii', 'ignore') if platform.system() == 'Windows' else str
 
-
+def is_jupyter():
+    try:
+        from IPython import get_ipython
+        if 'IPKernelApp' in get_ipython().config:
+            return True
+    except Exception:
+        return False
+    return False
 def file_age(path=__file__):
     # Return days since last file update
     dt = (datetime.now() - datetime.fromtimestamp(Path(path).stat().st_mtime))  # delta
