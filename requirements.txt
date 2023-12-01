@@ -5,16 +5,10 @@ attrs==23.1.0
 backcall==0.2.0
 backports.zoneinfo==0.2.1
 blinker==1.7.0
-Bottleneck @ file:///C:/Windows/Temp/abs_3198ca53-903d-42fd-87b4-03e6d03a8381yfwsuve8/croots/recipe/bottleneck_1657175565403/work
-Brotli @ file:///C:/Windows/Temp/abs_63l7912z0e/croots/recipe/brotli-split_1659616056886/work
 cachetools==5.3.2
-certifi @ file:///C:/b/abs_36eb5mzhph/croot/certifi_1690232276943/work/certifi
-cffi @ file:///C:/b/abs_49n3v2hyhr/croot/cffi_1670423218144/work
-charset-normalizer @ file:///tmp/build/80754af9/charset-normalizer_1630003229654/work
 click==8.1.7
 colorama==0.4.6
 contourpy==1.1.1
-cryptography @ file:///C:/b/abs_f4do8t8jfs/croot/cryptography_1694444424531/work
 cycler==0.12.1
 decorator==5.1.1
 executing==2.0.1
@@ -28,41 +22,30 @@ GitPython==3.1.40
 google-auth==2.23.4
 google-auth-oauthlib==1.0.0
 grpcio==1.59.2
-idna @ file:///C:/b/abs_bdhbebrioa/croot/idna_1666125572046/work
 imageio==2.32.0
 importlib-metadata==6.8.0
 importlib-resources==6.1.1
 ipython==8.12.3
 itsdangerous==2.1.2
 jedi==0.19.1
-Jinja2 @ file:///C:/b/abs_7cdis66kl9/croot/jinja2_1666908141852/work
 jsonschema==4.19.2
 jsonschema-specifications==2023.7.1
 kiwisolver==1.4.5
 lazy_loader==0.3
 Markdown==3.5.1
 markdown-it-py==3.0.0
-MarkupSafe @ file:///C:/ci/markupsafe_1654489871526/work
 matplotlib==3.7.3
 matplotlib-inline==0.1.6
 mdurl==0.1.2
-mkl-fft @ file:///C:/b/abs_19i1y8ykas/croot/mkl_fft_1695058226480/work
-mkl-random @ file:///C:/b/abs_edwkj1_o69/croot/mkl_random_1695059866750/work
 mkl-service==2.4.0
-mpmath @ file:///C:/b/abs_7833jrbiox/croot/mpmath_1690848321154/work
-networkx @ file:///C:/b/abs_e6gi1go5op/croot/networkx_1690562046966/work
-numexpr @ file:///C:/b/abs_afm0oewmmt/croot/numexpr_1683221839116/work
-numpy @ file:///C:/Users/dev-admin/mkl/numpy_and_numpy_base_1682982345978/work
 oauthlib==3.2.2
 opencv-python==4.8.1.78
 opencv-python-headless==4.8.1.78
 openvino==2023.2.0
 openvino-telemetry==2023.2.1
 packaging==23.2
-pandas @ file:///C:/miniconda3/conda-bld/pandas_1692299636855/work
 parso==0.8.3
 pickleshare==0.7.5
-Pillow @ file:///C:/b/abs_20ztcm8lgk/croot/pillow_1696580089746/work
 pkgutil_resolve_name==1.3.10
 prompt-toolkit==3.0.39
 protobuf==3.20.1
@@ -72,18 +55,11 @@ py-cpuinfo==9.0.0
 pyarrow==14.0.1
 pyasn1==0.5.0
 pyasn1-modules==0.3.0
-pycparser @ file:///tmp/build/80754af9/pycparser_1636541352034/work
 pydeck==0.8.1b0
 Pygments==2.16.1
-pyOpenSSL @ file:///C:/b/abs_08f38zyck4/croot/pyopenssl_1690225407403/work
 pyparsing==3.1.1
-PySocks @ file:///C:/ci/pysocks_1605287845585/work
-python-dateutil @ file:///tmp/build/80754af9/python-dateutil_1626374649649/work
-pytz @ file:///C:/b/abs_19q3ljkez4/croot/pytz_1695131651401/work
 PyWavelets==1.4.1
-PyYAML @ file:///C:/b/abs_782o3mbw7z/croot/pyyaml_1698096085010/work
 referencing==0.30.2
-requests @ file:///C:/b/abs_316c2inijk/croot/requests_1690400295842/work
 requests-oauthlib==1.3.1
 rich==13.6.0
 rpds-py==0.12.0
@@ -91,11 +67,9 @@ rsa==4.9
 scikit-image==0.21.0
 scipy==1.10.1
 seaborn==0.13.0
-six @ file:///tmp/build/80754af9/six_1644875935023/work
 smmap==5.0.1
 stack-data==0.6.3
 streamlit==1.28.2
-sympy @ file:///C:/b/abs_95fbf1z7n6/croot/sympy_1668202411612/work
 tenacity==8.2.3
 tensorboard==2.14.0
 tensorboard-data-server==0.7.2
@@ -103,19 +77,17 @@ thop==0.1.1.post2209072238
 tifffile==2023.7.10
 toml==0.10.2
 toolz==0.12.0
-torch @ file:///C:/b/abs_abjetg6_iu/croot/pytorch_1686932924616/work
-torchvision @ file:///C:/b/abs_61prww4bv9/croot/torchvision_1689079992237/work
 tornado==6.3.3
 tqdm==4.66.1
 traitlets==5.13.0
-typing_extensions @ file:///C:/b/abs_213vg2cd1l/croot/typing_extensions_1690297804941/work
-tzdata @ file:///croot/python-tzdata_1690578112552/work
+typing_extensions 
+tzdata
 tzlocal==5.2
 ultralytics==8.0.207
-urllib3 @ file:///C:/b/abs_9cmlsrm3ys/croot/urllib3_1698257595508/work
+urllib3 
 validators==0.22.0
 watchdog==3.0.0
 wcwidth==0.2.9
 Werkzeug==3.0.1
-win-inet-pton @ file:///C:/ci/win_inet_pton_1605306167264/work
+win-inet-pton
 zipp==3.17.0
