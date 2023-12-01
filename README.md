@@ -291,7 +291,7 @@ This command initiates a local server, making the app accessible through a web b
 
 # Results and Discussion
 ### TRAFFIC SIGN DETECTION AND RECOGNITION SAMPLE:
-![Traffic Sign Original Image](C:\Users\Dhruv\Desktop\dhruv\dhruv\raw_results\tsdr\FCOM60809032023114526(1).jpg "Traffic Sign Detection")
+![Traffic Sign Original Image](https://github.com/DhruvRaghav/ob_st/blob/main/API_DATA/Pothole_box/000000000318.jpg "Traffic Sign Detection")
 ![Traffic Sign Detection](C:\Users\Dhruv\Desktop\dhruv\dhruv\raw_results\tsdr\FCOM60809032023114526.jpg "Traffic Sign Detection")
 ![Traffic Sign Detection](C:\Users\Dhruv\Desktop\dhruv\dhruv\raw_results\tsdr\FCOM60809032023112916(1).jpg "Traffic Sign Detection")
 ![Traffic Sign Detection](C:\Users\Dhruv\Desktop\dhruv\dhruv\raw_results\tsdr\FCOM60809032023112916.jpg "Traffic Sign Detection")
