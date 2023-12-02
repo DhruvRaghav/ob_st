@@ -158,6 +158,22 @@ Integration with  Web App in your Streamlit-based web application, the YOLOv5 al
 - **YOLOv5**: Selected for its superior performance in object detection tasks.
 - **Skimage**: Used for essential image processing tasks within the app.
 - **OpenCV**: A crucial tool for image processing and real-time video operations.
+- **PyTorch** :  YOLOv5 is implemented in PyTorch, a popular open-source machine learning library.
+- NumPy
+-  Matplotlib
+-   OpenCV for image processing and visualization.
+- High-performance GPUs (like NVIDIA's CUDA-enabled GPUs) are essential for efficient training and inference, as they significantly reduce the processing time.
+Adequate VRAM is needed to handle large models and datasets.
+- CUDA Toolkit and cuDNN for GPU acceleration (if using NVIDIA GPUs).
+- Tools for handling and preprocessing datasets, such as data augmentation libraries.
+- Git and GitHub for version control and collaboration.
+- Tools like LabelImg or VOTT for annotating images if using custom datasets.
+- IDEs like PyCharm, Visual Studio Code, or Jupyter Notebooks.
+- Platforms like GitHub or GitLab for collaborative development and version control.
+- A powerful CPU and sufficient RAM are required for data preprocessing, model training, and inferencing, especially when handling large datasets.
+Software and Libraries
+
+
 
 ## Implementation with Streamlit
 The project harnesses Streamlit's capabilities to create an interactive and user-friendly interface. The application allows users to upload images and choose from various detection options. Below is a snippet showcasing the core functionality:
